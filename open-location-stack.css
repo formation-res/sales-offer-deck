@@ -216,7 +216,7 @@ body[data-theme="formation"] {
   --viewport-glow-primary: rgba(88, 212, 108, 0.12);
   --viewport-glow-secondary: rgba(88, 212, 108, 0.08);
   --viewport-gradient-base: linear-gradient(180deg, #14272b 0%, #0f1f22 100%);
-  --viewport-image-url: url("assets/tracked-welding-equipment-2.webp");
+  --viewport-image-url: url("assets/xyz-why-choose.webp");
   --overview-glow-primary: rgba(109, 234, 127, 0.16);
   --overview-glow-secondary: rgba(88, 212, 108, 0.12);
   --overview-glow-tertiary: rgba(166, 255, 180, 0.14);
@@ -1803,6 +1803,17 @@ body.overview-active .slide-footer {
   height: auto;
 }
 
+.corner-text-mark {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+}
+
 .slide-footer a {
   color: color-mix(in srgb, var(--footer-ink) 94%, transparent);
   text-decoration: none;
@@ -3386,6 +3397,21 @@ body.document-overview-active .document-page-frame > .document-page {
   max-width: 34%;
 }
 
+.document-text-brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
+  width: auto;
+  max-width: 40%;
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--document-ink);
+}
+
 .document-brand-xyz {
   width: 280px;
   max-width: min(72%, 280px);
@@ -4604,6 +4630,19 @@ body.overview-active .cover-shell,
 .proposal-cover .cover-brand-mark-lear,
 .end-cover .cover-brand-mark-lear {
   justify-self: start;
+}
+
+.cover-text-mark {
+  justify-self: start;
+  max-width: min(22vw, 240px);
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2.2vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
 .cover-brand-row-xyz-offer,

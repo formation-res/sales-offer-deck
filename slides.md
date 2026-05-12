@@ -1,378 +1,198 @@
-<!-- .slide: class="title-slide proposal-cover hero-video-slide" data-theme-background="cover" -->
+<!-- .slide: class="title-slide proposal-cover" data-theme-background="cover" -->
 
 <section class="cover-shell">
   <div class="cover-brand-row">
     <img src="assets/formation-logo-text-white.png" alt="FORMATION" class="cover-brand-mark cover-brand-mark-formation" />
     <span class="cover-brand-divider" aria-hidden="true"></span>
-    <img src="assets/lear-logo.svg" alt="Lear Corporation" class="cover-brand-mark cover-brand-mark-lear" />
+    <span class="cover-text-mark">XU Group</span>
   </div>
-  <p class="cover-tagline">The power of knowing where</p>
+  <p class="cover-tagline">Non-binding proposal</p>
   <div class="cover-rule"></div>
-  <p class="cover-tagline cover-tagline-secondary">Offer</p>
-  <p class="cover-tagline cover-tagline-secondary">Production Rollout &amp; Custom Development</p>
+  <p class="cover-tagline cover-tagline-secondary">Discovery &amp; MVP Definition</p>
+  <p class="cover-tagline cover-tagline-secondary">Knowledge, retrieval, and agentic workflows</p>
   <div class="cover-meta">
-    <span class="cover-meta-pill cover-issue-date">Issued: March 31, 2026</span>
+    <span class="cover-meta-pill cover-issue-date">Issued: May 12, 2026</span>
     <span class="meta-separator">|</span>
-    <span class="cover-meta-pill">Version 1.0</span>
+    <span class="cover-meta-pill">Prepared for: Thomas Konrad</span>
     <span class="meta-separator">|</span>
-    <span class="cover-meta-pill">Presented to: Timo Seber</span>
-    <span class="meta-separator">|</span>
-    <span class="cover-meta-pill">Offer valid for 45 days</span>
+    <span class="cover-meta-pill">XU Group GmbH</span>
   </div>
 </section>
 
 ---
 <!-- .slide: data-theme-background="intro" -->
-## Validated POC, Ready For Rollout
+## Why Discovery Comes First
 
-<p class="slide-lead">This offer converts the 2025/2026 validated POC into a production-ready, multi-site rollout plan with commercial terms designed to reduce the cost of scale.</p>
+<p class="slide-lead">XU is exploring a new platform direction around its knowledge and learning offering. The opportunity is clear, but the first build scope should be defined before architecture or technology decisions are locked in.</p>
 
 <div class="proposal-grid two-up">
-  <div class="proposal-card stat-card">
-    <p class="eyebrow text-accent">What Is Confirmed</p>
-    <h3>Validated in Lear facilities</h3>
+  <div class="proposal-card">
+    <p class="eyebrow text-accent">Current Direction</p>
+    <h3>Knowledge becomes product infrastructure</h3>
     <ul>
-      <li>Joint POC completed successfully across 2025/2026</li>
-      <li>System validated in real facility conditions</li>
-      <li>Scope now shifts from pilot setup to repeatable production rollout</li>
+      <li>Aggregate and structure content, data, and signals</li>
+      <li>Enable search, recommendations, and agent-style interactions</li>
+      <li>Turn learning assets into usable operational workflows</li>
     </ul>
   </div>
-  <div class="proposal-card stat-card">
-    <p class="eyebrow text-accent">Commercial Shift</p>
-    <h3>Lower asset pricing for scale</h3>
+  <div class="proposal-card">
+    <p class="eyebrow text-accent">Open Questions</p>
+    <h3>The MVP needs sharper boundaries</h3>
     <ul>
-      <li>Tracked asset pricing reduced by 33%</li>
-      <li>From <strong>€1.50</strong> to <strong>€1.00 per asset / month</strong></li>
-      <li>Supports wider deployment across more assets and more sites</li>
+      <li>Which use cases create value first?</li>
+      <li>How should the knowledge layer be structured and maintained?</li>
+      <li>How should the system learn from usage and feedback?</li>
     </ul>
-  </div>
-</div>
-
-<div class="metric-strip three-up">
-  <div class="metric-card">
-    <span class="metric-label">Platform</span>
-    <strong>Multi-tenant core system</strong>
-    <p>Admin Area, team and task management, zone triggering and alerts, rich content, wayfinding, search and tagging, Spatial Insights Suite, free access to the open source Open Location Stack plus IMDF Map Creator and Editor tools, Asset ID management, and multi-tenant hosting with managed hosting available.</p>
-  </div>
-  <div class="metric-card">
-    <span class="metric-label">Rollout Goal</span>
-    <strong>Standardized multi-site deployment</strong>
-    <p>Enterprise capabilities, workflow controls, and integration layers needed for wider production operation.</p>
-  </div>
-  <div class="metric-card">
-    <span class="metric-label">Estimate Basis</span>
-    <strong>Conservative by design</strong>
-    <p>Roadmap effort reflects current scope understanding and will be refined as requirements are clarified.</p>
   </div>
 </div>
 
 ---
-<!-- .slide: class="hero-video-slide platform-video-slide platform-commercials-slide" data-theme-background="platform" -->
-## Platform Commercials
+<!-- .slide: data-theme-background="platform" -->
+## Discovery Goal
 
-<p class="slide-lead">Core recurring platform pricing for <strong>10 users</strong>, <strong>1 admin</strong>, and <strong>1,000 tracked assets</strong>.</p>
-
-<table class="proposal-table pricing-table">
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Quantity</th>
-      <th>Unit Price</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Users</td>
-      <td>10</td>
-      <td>€99 / mo</td>
-      <td>€990 / mo</td>
-    </tr>
-    <tr>
-      <td>Admin (Insight Suite)</td>
-      <td>1</td>
-      <td>€150 / mo</td>
-      <td>€150 / mo</td>
-    </tr>
-    <tr>
-      <td>Tracked Assets</td>
-      <td>1,000</td>
-      <td>€1.00 / mo</td>
-      <td>€1,000 / mo</td>
-    </tr>
-  </tbody>
-</table>
+<p class="slide-lead">Define a clear path to an MVP and a realistic plan to get it into production.</p>
 
 <div class="metric-strip three-up">
-  <div class="metric-card total-card">
-    <span class="metric-label">Monthly</span>
-    <strong>€2,140</strong>
-    <p>Recurring core platform subscription.</p>
+  <div class="metric-card">
+    <span class="metric-label">Use Cases</span>
+    <strong>Prioritized workflows</strong>
+    <p>Clarify goals, users, and where agentic workflows create real value for XU and its customers.</p>
   </div>
-  <div class="metric-card total-card">
-    <span class="metric-label">Yearly</span>
-    <strong>€25,680</strong>
-    <p>Equivalent annual platform run rate.</p>
+  <div class="metric-card">
+    <span class="metric-label">Knowledge Layer</span>
+    <strong>Data, ETL, retrieval</strong>
+    <p>Define how content, data, and signals are ingested, structured, retrieved, and maintained.</p>
   </div>
-  <div class="metric-card total-card">
-    <span class="metric-label">36 Months</span>
-    <strong>€77,040</strong>
-    <p>Three-year platform value before discount.</p>
+  <div class="metric-card">
+    <span class="metric-label">Production Path</span>
+    <strong>MVP to roadmap</strong>
+    <p>Translate ideas into prioritized requirements, implementation scope, risks, team needs, and a six-month roadmap.</p>
   </div>
 </div>
 
-<blockquote class="pricing-callout">With a 3-year commitment billed in advance, platform pricing reduces by 10% to <strong>€1,926 / month</strong> or <strong>€69,336 total</strong> for the full 36-month term.</blockquote>
-
 ---
-<!-- .slide: class="hero-video-slide" data-theme-background="roadmap" -->
-## Roadmap Scope At A Glance
-
-<p class="slide-lead">The delivery plan establishes the foundation for secure, enterprise-grade rollout across additional Lear sites.</p>
+<!-- .slide: data-theme-background="roadmap" -->
+## Discovery Workstreams
 
 <div class="timeline-grid">
   <div class="timeline-card">
-    <span class="metric-label">Phase 1</span>
-    <h3>Enterprise foundation</h3>
-    <p>Access control, Microsoft SSO, Lear database integration, Omlox-connected geofencing, and external system synchronization.</p>
+    <span class="metric-label">01</span>
+    <h3>Goals and users</h3>
+    <p>Clarify target users, jobs to be done, success criteria, and the highest-value first workflows.</p>
   </div>
   <div class="timeline-card">
-    <span class="metric-label">Phase 2</span>
-    <h3>Operational workflows</h3>
-    <p>Messaging, tasking directly on objects, tag grouping and containerisation, and event-driven notifications.</p>
+    <span class="metric-label">02</span>
+    <h3>Knowledge architecture</h3>
+    <p>Define the ingestion, structuring, ETL, retrieval, RAG, and maintenance approach needed for the first product layer.</p>
   </div>
   <div class="timeline-card">
-    <span class="metric-label">Phase 3</span>
-    <h3>Stability and scale</h3>
-    <p>Object history and auto-archiving, zone filter behavior improvements, and rollout-ready administration patterns.</p>
-  </div>
-</div>
-
-<div class="summary-band">
-  <div>
-    <span class="metric-label">Total Roadmap</span>
-    <strong>49 days</strong>
-  </div>
-  <div>
-    <span class="metric-label">One-Time Development</span>
-    <strong>€73,500</strong>
-  </div>
-  <div>
-    <span class="metric-label">Commercial Basis</span>
-    <strong>€1,500 / day standard rate</strong>
+    <span class="metric-label">03</span>
+    <h3>Feedback loops</h3>
+    <p>Establish how usage, outcomes, corrections, and human review improve recommendations and agent behavior over time.</p>
   </div>
 </div>
 
 ---
 <!-- .slide: data-theme-background="packages-a" -->
-## Work Packages 1 To 4
+## What XU Gets
 
 <table class="proposal-table roadmap-table">
   <thead>
     <tr>
-      <th>Feature</th>
-      <th>Scope</th>
-      <th>Days</th>
-      <th>Cost</th>
+      <th>Output</th>
+      <th>Purpose</th>
+      <th>Format</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Custom Geofencing &amp; Lear DB Integration</td>
-      <td>API-linked geofencing areas, object creation flows, tag assignment, Omlox integration via Open Location Hub, and synchronization with Lear systems.</td>
-      <td>8</td>
-      <td>€12,000</td>
+      <td>Prioritized requirements</td>
+      <td>Convert exploratory ideas into a buildable first scope.</td>
+      <td>Ranked requirement list</td>
     </tr>
     <tr>
-      <td>Object &amp; User Messaging</td>
-      <td>Operational chat linked to tracked objects or users with in-app notifications and email delivery.</td>
-      <td>4</td>
-      <td>€6,000</td>
+      <td>MVP definition</td>
+      <td>Make clear what the first version must prove and what stays out.</td>
+      <td>MVP scope and acceptance criteria</td>
     </tr>
     <tr>
-      <td>Tag Grouping &amp; Containerisation</td>
-      <td>Bind multiple tags into a parent container with structured grouping, leveraging new inventory management behaviors where useful.</td>
-      <td>10</td>
-      <td>€15,000</td>
+      <td>Architecture direction</td>
+      <td>Align the data, retrieval, RAG, and feedback-loop approach.</td>
+      <td>High-level system blueprint</td>
     </tr>
     <tr>
-      <td>Task Assignment On Objects</td>
-      <td>Task templates, default assignees, task status, and dashboard visibility tied directly to tracked objects.</td>
-      <td>4</td>
-      <td>€6,000</td>
+      <td>Roadmap and estimate</td>
+      <td>Give XU a grounded basis for implementation decisions.</td>
+      <td>Six-month roadmap plus proposal</td>
     </tr>
   </tbody>
 </table>
+
+<blockquote class="pricing-callout">XU owns the discovery output and can use it freely, including with other vendors.</blockquote>
 
 ---
 <!-- .slide: data-theme-background="packages-b" -->
-## Work Packages 5 To 9
+## Delivery After Discovery
 
-<table class="proposal-table roadmap-table">
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>Scope</th>
-      <th>Days</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Object History &amp; Auto-Archiving</td>
-      <td>Archive inactive assets after an agreed period while preserving search, recovery, and unarchive flows.</td>
-      <td>2</td>
-      <td>€3,000</td>
-    </tr>
-    <tr>
-      <td>Zone Behaviour Filters</td>
-      <td>Keep zones visible as part of the base map even when object filters are applied.</td>
-      <td>1</td>
-      <td>€1,500</td>
-    </tr>
-    <tr>
-      <td>Business Unit Access Control</td>
-      <td>Workspace team system with role- and business-unit-based access separation. FORMATION internalises part of the architecture investment.</td>
-      <td>10</td>
-      <td>€15,000</td>
-    </tr>
-    <tr>
-      <td>Microsoft SSO Integration</td>
-      <td>Enterprise Microsoft authentication via standard OpenID flows, developed against a Microsoft test account and aligned with Lear IT needs.</td>
-      <td>5</td>
-      <td>€7,500</td>
-    </tr>
-    <tr>
-      <td>Event-Based Notifications</td>
-      <td>Email and app notifications when tags reappear inside tracked areas or zones, including edge-case handling.</td>
-      <td>5</td>
-      <td>€7,500</td>
-    </tr>
-  </tbody>
-</table>
-
----
-<!-- .slide: data-theme-background="support" -->
-## Commercial Structure &amp; Support
+<p class="slide-lead">If the plan is agreed, FORMATION XYZ can support the project for as long as required, from first working version through capability transfer.</p>
 
 <div class="proposal-grid two-up">
   <div class="proposal-card">
-    <p class="eyebrow">Payment Terms</p>
-    <h3 class="minor-heading">Platform and roadmap delivery</h3>
+    <p class="eyebrow text-accent">Build Support</p>
     <ul>
-      <li>Platform billed annually in advance</li>
-      <li>3-year advance commitment applies a 10% platform discount</li>
-      <li>Roadmap work billed 50% upfront and 50% on completion</li>
-      <li>Bundled roadmap commitment can reduce the effective day rate to as low as €1,000 / day</li>
+      <li>Bootstrap with a small senior team</li>
+      <li>Build an end-to-end version: data to retrieval to user-facing flow</li>
+      <li>Iterate in short cycles from within FORMATION XYZ</li>
     </ul>
   </div>
   <div class="proposal-card">
-    <p class="eyebrow">Optional Production Support</p>
-    <h3 class="minor-heading">€10,000 per year</h3>
+    <p class="eyebrow text-accent">Operating Model</p>
     <ul>
-      <li>Lear database integration support</li>
-      <li>System maintenance and ongoing updates</li>
-      <li>Uptime monitoring and technical support</li>
-      <li>Dedicated hosting available separately at approximately €24,000 / year</li>
-    </ul>
-  </div>
-</div>
-
-<blockquote class="pull-quote">The commercial goal is not short-term cost minimization. It is a stable, low-risk production rollout structure for long-term operation in live manufacturing environments.</blockquote>
-
----
-<!-- .slide: class="commercial-breakdown-slide" data-theme-background="summary" -->
-## Three-Year Commercial Structure
-
-<div class="proposal-grid two-up">
-  <div class="proposal-card">
-    <p class="eyebrow">Standard 3-Year Structure</p>
-    <h3 class="minor-heading">What makes up the total</h3>
-    <ul>
-      <li>Platform subscription for 36 months: €77,040</li>
-      <li>Roadmap delivery across 49 days: €73,500</li>
-      <li>Optional production support across 3 years: €30,000</li>
-      <li><strong>Total 3-year investment: €180,540</strong></li>
-    </ul>
-  </div>
-  <div class="proposal-card">
-    <p class="eyebrow">3-Year Upfront Platform Commitment</p>
-    <h3 class="minor-heading">Same scope, lower platform cost</h3>
-    <ul>
-      <li>Discounted platform subscription for 36 months: €69,336</li>
-      <li>Roadmap delivery across 49 days: €73,500</li>
-      <li>Optional production support across 3 years: €30,000</li>
-      <li><strong>Total 3-year investment: €172,836</strong></li>
-    </ul>
-  </div>
-</div>
-
-<div class="proposal-grid two-up">
-  <div class="proposal-card">
-    <p class="eyebrow">What Lear Gets</p>
-    <ul>
-      <li>Production-ready multi-site foundation</li>
-      <li>Enterprise controls and Microsoft-aligned access</li>
-      <li>Operational workflows tied directly to tracked assets</li>
-      <li>A clearer path from validated pilot to standardized rollout</li>
-    </ul>
-  </div>
-  <div class="proposal-card">
-    <p class="eyebrow">Commercial Note</p>
-    <ul>
-      <li>The difference between both options is only the platform commitment discount</li>
-      <li>Roadmap delivery scope remains unchanged at €73,500</li>
-      <li>Production support remains unchanged at €10,000 per year</li>
-      <li>Total savings from the upfront platform commitment: €7,704</li>
+      <li>Weekly check-ins with XU for alignment and progress</li>
+      <li>Technology choices follow the requirements</li>
+      <li>Help XU build internal capability and take over over time</li>
     </ul>
   </div>
 </div>
 
 ---
-<!-- .slide: data-theme-background="closing" -->
-## Closing
+<!-- .slide: data-theme-background="overview" -->
+## Commercials
 
-<p class="closing-summary">The rollout proposal is structured to balance platform evolution, Lear-specific requirements, and low-risk deployment into production environments. In the short term, it delivers the operational efficiencies typically associated with RTLS systems. In parallel, it lays the foundation for a broader industrial operating model: a shared human-robotic workplace supported by a common operational layer for all actors across the production environment.</p>
-
-<div class="closing-layout">
-  <div class="proposal-card closing-card closing-card-prepared">
-    <p class="eyebrow">Presented By</p>
-    <a class="linkedin-preview" href="https://www.linkedin.com/in/ianhannigan/" target="_blank" rel="noreferrer noopener">
-      <img src="assets/founder-jilles-van-gurp-linkedin.jpg" alt="Ian Hannigan" class="linkedin-preview-avatar" />
-      <span class="linkedin-preview-body">
-        <strong>Ian Hannigan</strong>
-        <span>Founder and CEO at FORMATION GmbH</span>
-        <span>linkedin.com/in/ianhannigan</span>
-      </span>
-    </a>
-    <p><br /><a href="mailto:ih@tryformation.com">ih@tryformation.com</a></p>
+<div class="summary-band">
+  <div>
+    <span class="metric-label">Rate</span>
+    <strong>€1,500 / day / person</strong>
   </div>
-  <div class="proposal-card closing-card closing-card-prepared">
-    <p class="eyebrow">Presented By</p>
-    <a class="linkedin-preview" href="https://www.linkedin.com/in/jillesvangurp/" target="_blank" rel="noreferrer noopener">
-      <img src="assets/founder-jilles-van-gurp.webp" alt="Dr. Jilles Van Gurp" class="linkedin-preview-avatar" />
-      <span class="linkedin-preview-body">
-        <strong>Dr. Jilles Van Gurp</strong>
-        <span>CTO and Founder at FORMATION GmbH</span>
-        <span>linkedin.com/in/jillesvangurp</span>
-      </span>
-    </a>
-    <p><br /><a href="mailto:jvg@tryformation.com">jvg@tryformation.com</a></p>
+  <div>
+    <span class="metric-label">VAT</span>
+    <strong>Excl. VAT</strong>
+  </div>
+  <div>
+    <span class="metric-label">Discovery</span>
+    <strong>Typically 3-5 days</strong>
   </div>
 </div>
 
----
-<!-- .slide: class="title-slide proposal-cover end-cover hero-video-slide" data-theme-background="end" -->
+<p class="slide-lead">A single number for the full project would not be useful yet. Scope, requirements, team setup, and delivery approach should be defined first so the implementation estimate is grounded and fair to both sides.</p>
 
-<section class="cover-shell">
-  <div class="cover-brand-row">
-    <img src="assets/formation-logo-text-white.png" alt="FORMATION" class="cover-brand-mark cover-brand-mark-formation" />
-    <span class="cover-brand-divider" aria-hidden="true"></span>
-    <img src="assets/lear-logo.svg" alt="Lear Corporation" class="cover-brand-mark cover-brand-mark-lear" />
+---
+<!-- .slide: class="end-cover" data-theme-background="cover" -->
+## Next Step
+
+<p class="slide-lead">Align on participants and schedule the discovery sessions.</p>
+
+<div class="summary-band">
+  <div>
+    <span class="metric-label">Recipient</span>
+    <strong>Thomas Konrad</strong>
   </div>
-  <p class="cover-tagline">The power of knowing where</p>
-  <div class="cover-rule"></div>
-  <h2 class="cover-end-title">Thank You</h2>
-  <div class="cover-meta">
-    <span class="cover-meta-pill"><a href="https://tryformation.com" target="_blank" rel="noreferrer noopener">tryformation.com</a></span>
+  <div>
+    <span class="metric-label">Email</span>
+    <strong>t.konrad@xu.de</strong>
   </div>
-</section>
+  <div>
+    <span class="metric-label">Company</span>
+    <strong>XU Group GmbH</strong>
+  </div>
+</div>
