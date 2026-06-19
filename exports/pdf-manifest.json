@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T10:47:16.727Z",
+  "generatedAt": "2026-06-19T14:06:19.565Z",
   "files": {
     "offer|lear|en": {
       "href": "exports/offer__lear__en.pdf",
@@ -59,8 +59,8 @@
       "theme": "xyz",
       "lang": "en",
       "view": "document",
-      "sourceSignature": "fe2f3f48df14915c15d770d5ec2d2b91a017a5835d78ada1355c6a7fe9949353",
-      "generatedAt": "2026-06-19T10:47:16.727Z"
+      "sourceSignature": "05ce18b392970e9329dc4525a73f268ff8383d9f4998b49672f8e9edec445790",
+      "generatedAt": "2026-06-19T14:06:19.565Z"
     }
   }
 }
