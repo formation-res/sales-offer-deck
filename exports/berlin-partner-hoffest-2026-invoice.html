@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rechnung RE-2026-0527-BP - Berlin Partner Hoffest 2026</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #e9e9e9;
+      color: #171717;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      line-height: 1.36;
+    }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 12mm 18mm 46mm;
+      background: #fff;
+      overflow: hidden;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    .topline {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20mm;
+      margin-bottom: 8mm;
+    }
+
+    .brand {
+      max-width: 72mm;
+    }
+
+    .brand img {
+      width: 42mm;
+      height: auto;
+      display: block;
+      margin-bottom: 4mm;
+    }
+
+    .brand p,
+    .sender-meta p,
+    .bill-to p,
+    .reference p,
+    .closing p {
+      margin: 0;
+    }
+
+    .sender-meta {
+      width: 70mm;
+      color: #333;
+      font-size: 8.4pt;
+    }
+
+    .sender-meta strong {
+      display: block;
+      color: #111;
+      font-size: 10pt;
+      margin-bottom: 1.4mm;
+    }
+
+    .bill-to {
+      margin-bottom: 7mm;
+    }
+
+    .bill-to strong {
+      display: block;
+      margin-bottom: 2mm;
+    }
+
+    h1 {
+      margin: 0 0 5mm;
+      font-size: 18pt;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-top: 1px solid #d9dee3;
+      border-bottom: 1px solid #d9dee3;
+      margin-bottom: 6mm;
+    }
+
+    .meta-grid div {
+      padding: 3mm 4mm 3mm 0;
+    }
+
+    .meta-grid div + div {
+      border-left: 1px solid #d9dee3;
+      padding-left: 4mm;
+    }
+
+    .label {
+      display: block;
+      color: #555;
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 1mm;
+    }
+
+    .reference {
+      margin: 0 0 5mm;
+      padding: 3mm 4mm;
+      border: 1px solid #cfcfcf;
+      background: #f3f3f3;
+    }
+
+    .intro {
+      margin: 0 0 4mm;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 4mm;
+    }
+
+    th {
+      padding: 2.2mm 2mm;
+      background: #111;
+      color: #fff;
+      font-size: 8.5pt;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    td {
+      padding: 2.4mm 2mm;
+      border-bottom: 1px solid #cfcfcf;
+      vertical-align: top;
+    }
+
+    th.number,
+    td.number {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .item-title {
+      font-weight: 700;
+      margin: 0 0 1.5mm;
+    }
+
+    .item-scope {
+      margin: 0;
+      color: #444;
+      font-size: 8.8pt;
+    }
+
+    .totals {
+      width: 74mm;
+      margin-left: auto;
+      margin-bottom: 0;
+    }
+
+    .totals-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8mm;
+      padding: 1.4mm 0;
+      border-bottom: 1px solid #cfcfcf;
+    }
+
+    .totals-row.total {
+      margin-top: 2mm;
+      padding-top: 2mm;
+      border-top: 2px solid #111;
+      border-bottom: 0;
+      font-size: 11.5pt;
+      font-weight: 700;
+    }
+
+    .note {
+      margin: 0 0 7mm;
+      padding: 4.5mm 5mm;
+      border-left: 4px solid #111;
+      background: #f3f3f3;
+      font-weight: 700;
+    }
+
+    .terms {
+      margin: 0 0 12mm;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6mm;
+      margin: 0 0 8mm;
+    }
+
+    .detail-card {
+      min-height: 45mm;
+      padding: 5mm;
+      border: 1px solid #cfcfcf;
+      background: #fff;
+    }
+
+    .detail-card h2 {
+      margin: 0 0 3mm;
+      font-size: 13pt;
+      line-height: 1.2;
+    }
+
+    .detail-card p {
+      margin: 0 0 2.5mm;
+    }
+
+    .detail-card ul {
+      margin: 0;
+      padding-left: 5mm;
+    }
+
+    .detail-card li {
+      margin-bottom: 1.6mm;
+    }
+
+    .page-kicker {
+      margin: 0 0 4mm;
+      color: #667085;
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .closing {
+      margin-top: 10mm;
+    }
+
+    .signature {
+      width: 43mm;
+      display: block;
+      margin: 5mm 0 1mm;
+    }
+
+    .footer {
+      position: absolute;
+      left: 18mm;
+      right: 18mm;
+      bottom: 10mm;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8mm;
+      color: #626b75;
+      font-size: 7.8pt;
+      border-top: 1px solid #cfcfcf;
+      padding-top: 4mm;
+    }
+
+    .footer p {
+      margin: 0 0 .8mm;
+    }
+
+    .page-number {
+      position: absolute;
+      right: 18mm;
+      bottom: 34mm;
+      color: #555;
+      font-size: 8pt;
+    }
+
+    @media screen {
+      .page {
+        margin: 16px auto;
+        box-shadow: 0 18px 60px rgba(15, 23, 42, .16);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="topline">
+      <div class="brand">
+        <img src="../assets/formation-logo-text-black.png" alt="FORMATION">
+        <p>FORMATION GmbH</p>
+        <p>Urbanstr. 71</p>
+        <p>10967 Berlin</p>
+      </div>
+      <div class="sender-meta">
+        <strong>FORMATION GmbH</strong>
+        <p>Sitz der Gesellschaft: Berlin</p>
+        <p>Amtsgericht Charlottenburg</p>
+        <p>Handelsregister: HRB 218133</p>
+        <p>USt.-ID: DE332537362</p>
+        <p>Geschaeftsfuehrer: Ian Hannigan</p>
+      </div>
+    </section>
+
+    <section class="bill-to">
+      <strong>Partner fuer Berlin Holding I Gesellschaft fuer Hauptstadt-Marketing mbH</strong>
+      <p>Fasanenstrasse 85</p>
+      <p>10623 Berlin</p>
+      <p>Deutschland</p>
+    </section>
+
+    <h1>Rechnung: RE-2026-0527-BP</h1>
+
+    <section class="meta-grid" aria-label="Rechnungsdaten">
+      <div>
+        <span class="label">Rechnungsdatum</span>
+        <strong>27.05.2026</strong>
+      </div>
+      <div>
+        <span class="label">Leistungszeitraum</span>
+        <strong>01.07.2026 - 07.07.2026</strong>
+      </div>
+      <div>
+        <span class="label">Zahlungsziel</span>
+        <strong>Sofort</strong>
+      </div>
+    </section>
+
+    <section class="reference">
+      <p><strong>Referenz:</strong> Rechnung Nr. 12600125 vom 16.02.2026</p>
+      <p><strong>Vertrag:</strong> Lizenzvertrag "Kategorie A" vom 27.11.2025, LV-000314</p>
+    </section>
+
+    <p class="intro">Sehr geehrte Damen und Herren, hiermit stellen wir die nachfolgend beschriebenen Leistungen fuer das Berlin Partner Hoffest 2026 in Rechnung.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 14mm;">Pos.</th>
+          <th>Bezeichnung</th>
+          <th class="number" style="width: 26mm;">Menge</th>
+          <th class="number" style="width: 34mm;">Einzelpreis</th>
+          <th class="number" style="width: 34mm;">Gesamt</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>
+            <p class="item-title">Digitaler Lageplan / digitale Event-Karte (Berliner Hoffest 2026)</p>
+            <p class="item-scope">Einrichtung, Anpassung und Bereitstellung inkl. Logo-/Stand-Aktualisierungen, Karten-/POI-Pflege und Abstimmung gemaess Lizenzvertrag Kategorie A. Details siehe Seite 2.</p>
+          </td>
+          <td class="number">1</td>
+          <td class="number">14.000,00 EUR</td>
+          <td class="number">14.000,00 EUR</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section class="totals" aria-label="Summen">
+      <div class="totals-row">
+        <span>Gesamtwert ohne MwSt.</span>
+        <strong>14.000,00 EUR</strong>
+      </div>
+      <div class="totals-row">
+        <span>Umsatzsteuer 19%</span>
+        <strong>2.660,00 EUR</strong>
+      </div>
+      <div class="totals-row total">
+        <span>Rechnungsbetrag</span>
+        <strong>16.660,00 EUR</strong>
+      </div>
+    </section>
+
+    <span class="page-number">Seite 1 von 2</span>
+    <footer class="footer">
+      <div>
+        <p>FORMATION GmbH</p>
+        <p>Urbanstr. 71</p>
+        <p>10967 Berlin</p>
+      </div>
+      <div>
+        <p>Sitz der Gesellschaft: Berlin</p>
+        <p>Amtsgericht Charlottenburg</p>
+        <p>Handelsregister: HRB 218133</p>
+        <p>Geschaeftsfuehrer: Ian Hannigan</p>
+      </div>
+      <div>
+        <p>Commerzbank</p>
+        <p>BIC: COBA DE FF XXX</p>
+        <p>IBAN: DE92 1004 0000 0808 9898 00</p>
+        <p>USt.-ID: DE332537362</p>
+      </div>
+    </footer>
+  </main>
+
+  <section class="page">
+    <p class="page-kicker">Rechnung RE-2026-0527-BP · Berlin Partner Hoffest 2026</p>
+    <h1>Leistungs- und Verrechnungsnotiz</h1>
+
+    <section class="reference">
+      <p><strong>Referenz:</strong> Rechnung Nr. 12600125 vom 16.02.2026</p>
+      <p><strong>Vertrag:</strong> Lizenzvertrag "Kategorie A" vom 27.11.2025, LV-000314</p>
+    </section>
+
+    <section class="detail-grid">
+      <article class="detail-card">
+        <h2>Leistungsumfang</h2>
+        <ul>
+          <li>Digitaler Lageplan / digitale Event-Karte fuer das Berliner Hoffest 2026.</li>
+          <li>Logo-, Partner-, Stand- und POI-Aktualisierungen auf Basis der abgestimmten Veranstaltungsinformationen.</li>
+          <li>Kartenpflege, Vorbereitung der Event-Ansicht und Abstimmung der finalen Inhalte.</li>
+          <li>Bereitstellung im Rahmen des Lizenzvertrags Kategorie A.</li>
+        </ul>
+      </article>
+
+      <article class="detail-card">
+        <h2>Verrechnung</h2>
+        <p>Netto: <strong>14.000,00 EUR</strong></p>
+        <p>Umsatzsteuer 19%: <strong>2.660,00 EUR</strong></p>
+        <p>Brutto: <strong>16.660,00 EUR</strong></p>
+        <p>Die Gegenrechnung spiegelt den vereinbarten Wert der durch FORMATION erbrachten bzw. zu erbringenden digitalen Leistungen.</p>
+      </article>
+    </section>
+
+    <p class="note">Gegengeschaeft / Kompensationsgeschaeft ohne Geldfluss: Der Rechnungsbetrag wird mit den zu erbringenden Leistungen gemaess Vertrag verrechnet; keine Zahlung erforderlich.</p>
+
+    <p class="terms">Zahlungsbedingung: sofort. Aufgrund des oben genannten Gegengeschaefts wird keine Zahlung erwartet.</p>
+
+    <section class="closing">
+      <p>Mit freundlichen Gruessen</p>
+      <img src="../assets/ian-signature.png" alt="Unterschrift Ian Hannigan" class="signature">
+      <p>Ian Hannigan</p>
+      <p>Geschaeftsfuehrer und Gruender</p>
+    </section>
+
+    <span class="page-number">Seite 2 von 2</span>
+    <footer class="footer">
+      <div>
+        <p>FORMATION GmbH</p>
+        <p>Urbanstr. 71</p>
+        <p>10967 Berlin</p>
+      </div>
+      <div>
+        <p>Sitz der Gesellschaft: Berlin</p>
+        <p>Amtsgericht Charlottenburg</p>
+        <p>Handelsregister: HRB 218133</p>
+        <p>Geschaeftsfuehrer: Ian Hannigan</p>
+      </div>
+      <div>
+        <p>Commerzbank</p>
+        <p>BIC: COBA DE FF XXX</p>
+        <p>IBAN: DE92 1004 0000 0808 9898 00</p>
+        <p>USt.-ID: DE332537362</p>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>

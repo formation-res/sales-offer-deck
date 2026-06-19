@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T09:17:39.949Z",
+  "generatedAt": "2026-06-19T10:35:14.297Z",
   "files": {
     "offer|lear|en": {
       "href": "exports/offer__lear__en.pdf",
@@ -31,8 +31,9 @@
       "content": "offer",
       "theme": "xyz",
       "lang": "en",
-      "sourceSignature": "42bcddc6dc64c22a4ee45ad0b8b617de351ae3b072e67c545d93ae24e8344dbe",
-      "generatedAt": "2026-04-13T14:32:13.142Z"
+      "view": "slides",
+      "sourceSignature": "6b853f1319c26cb20daff252ba0ae6950902decfc23855158caec9f9f72f0ab4",
+      "generatedAt": "2026-06-19T10:20:00.392Z"
     },
     "offer|lear|de": {
       "href": "exports/offer__lear__de.pdf",
@@ -51,6 +52,15 @@
       "view": "document",
       "sourceSignature": "255e0cc731f0d567ea166849ef10062ed5ab5a482d91d38667b6edcd45da7daa",
       "generatedAt": "2026-04-13T21:16:18.113Z"
+    },
+    "document|offer|xyz|en": {
+      "href": "exports/tha-costing-intelligence-document.pdf",
+      "content": "offer",
+      "theme": "xyz",
+      "lang": "en",
+      "view": "document",
+      "sourceSignature": "8f3b2f5e63a60a9b79baa26ae01b2ac2a040660973c1e74abc2982a8ad512d98",
+      "generatedAt": "2026-06-19T10:35:14.297Z"
     }
   }
 }
